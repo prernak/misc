@@ -35,8 +35,7 @@ function getAddress(name,index,sheet) {
 /**
  * Retrieves all the rows in the active spreadsheet that contain data and logs the
  * values for each row.
- * For more information on using the Spreadsheet API, see
- * https://developers.google.com/apps-script/service_spreadsheet
+ * 
  */
 function readRows() {
   var sheet = SpreadsheetApp.getActiveSheet();
@@ -62,8 +61,7 @@ function readRows() {
  * for invoking the readRows() function specified above.
  * The onOpen() function, when defined, is automatically invoked whenever the
  * spreadsheet is opened.
- * For more information on using the Spreadsheet API, see
- * https://developers.google.com/apps-script/service_spreadsheet
+ *
  */
 function onOpen() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet();
