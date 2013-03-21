@@ -1,7 +1,7 @@
 misc
 ====
 
-company_trimmer
+Code.gs
 -----------------
 
 Google script to fetch company address from  Places API.
